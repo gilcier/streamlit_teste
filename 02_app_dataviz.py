@@ -1,6 +1,3 @@
-## ANDRE R OLIVEIRA - RA 2302429
-## PAULA PELINI RODRIGUES - RA 2302893
-
 import sqlalchemy as sqa 
 import streamlit as st
 import pandas as pd
