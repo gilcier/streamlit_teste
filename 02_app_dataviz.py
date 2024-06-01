@@ -8,7 +8,7 @@ engine = sqa.create_engine("sqlite:///df_cotacao.db", echo=True)
 conn = engine.connect()
 
 # Leitura dos dados da tabela e inserção num dataframe
-df_cotacao = pd.read_sql('cotacao.db', con=conn)
+df_cotacao = pd.read_sql('cotacao', con=conn)
 df_cotacao = pd.DataFrame(df_cotacao, columns=['Ticket','Nome','Negocios','Ultima','Variacao'])
 
 # Titulo do App
